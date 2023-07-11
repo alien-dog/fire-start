@@ -292,3 +292,5 @@ def main(
         description="Atom is a system that contains marketing\engegement....",  # noqa: E501
     ).queue().launch(server_name="0.0.0.0", share=share_gradio)
     # Old testing code follows.
+if __name__ == "__main__":
+    fire.Fire(main)
